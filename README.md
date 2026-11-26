@@ -31,3 +31,19 @@ TODO: refresh of console
 
 ## Production mode
 [PM2](http://pm2.keymetrics.io/)
+
+## Ficha del proyecto
+
+Proyecto inicial de microframework para hardware con código Node.js y pruebas.
+
+### Contenido
+
+- [src](./src), [test](./test), [package.json](./package.json).
+
+### Uso
+
+Consulta [package.json](./package.json) para comprobar los requisitos de Node.js y los scripts disponibles en esta revisión.
+
+### Origen
+
+- [Repositorio de origen](https://github.com/mac2394q/boilerplate-hardware-microframework)
