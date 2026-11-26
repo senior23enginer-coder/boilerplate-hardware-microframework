@@ -47,3 +47,16 @@ Consulta [package.json](./package.json) para comprobar los requisitos de Node.js
 ### Origen
 
 - [Repositorio de origen](https://github.com/mac2394q/boilerplate-hardware-microframework)
+
+<!-- station-x-repository-guide:start -->
+
+## Guía de esta copia
+
+### Mapa del proyecto
+[src](./src) contiene la aplicación y [test](./test) sus pruebas. [package.json](./package.json), [tsconfig.json](./tsconfig.json) y [gulpfile.js](./gulpfile.js) describen las herramientas de ejecución y compilación de esta revisión.
+### Preparación local
+Lee la sección original de variables de entorno y usa valores de prueba. Revisa el comportamiento de `npm run setup:env` antes de preparar tu configuración. El manifiesto ofrece `npm run start`, `npm run build`, `npm run test` y `npm run lint`.
+### Verificación
+Ejecuta las pruebas del proyecto y, si cambias eventos o rutas, comprueba el contrato REST y Socket.IO desde un cliente local.
+
+<!-- station-x-repository-guide:end -->
